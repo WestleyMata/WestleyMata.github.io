@@ -12,12 +12,10 @@
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 @import url('normalize.css');
 
-
 /* Section 2 - General Rules */
 
 header {
     background-color: #0e89d5;
-    
 }
 
 #site-brand {
