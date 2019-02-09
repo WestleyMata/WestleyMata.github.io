@@ -80,17 +80,17 @@ section {
     display: inline;
 }
 
-/* #compassDirection {
+#compassDirection {
     display: inline;
     overflow: auto;
 }
 
 #windSpeed {
-    position: absolute;
-    top: 50%;
+    float: center;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-} */
+    transform: translate(-50%, -50%); */
+}
 
 li, ol, ul {
     list-style: none;
