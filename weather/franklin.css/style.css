@@ -17,6 +17,40 @@
 
 header {
     background-color: #0e89d5;
+    
+}
+
+#site-brand {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#logoPhoto {
+    height: 40px;
+    width: auto;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav {
+    background-color: #0e89d5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,4 +60,58 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-size: 18px;
     font-family: Helvetica, Arial, sans-serif;
+    width: 500px;
+    height: auto;
 }
+
+section {
+    text-align: center;
+}
+
+#infoBox {
+    background-image: url(/images/rain.jpg);
+}
+
+#tempHigh {
+    color: red;
+    display: inline;
+}
+
+#tempLow {
+    color: blue;
+    display: inline;
+}
+
+li, ol, ul {
+    list-style: none;
+    display: inline;
+}
+
+#rainPhoto {
+    height: auto;
+    width: 300px;
+}
+
+.tile {
+    background-color: rgba(200,200,200,.6);
+  margin: .2em auto;
+  border: 1px solid;
+  border-radius: 15px;
+
+}
+
+#hourly {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+footer {
+    margin-bottom: 4em;
+    background-color: #0e89d5;
+}
+
+
+
+
+
+/* Mobile Styles */

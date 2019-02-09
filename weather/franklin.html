@@ -5,19 +5,21 @@
   <title>Franklin, ID | Weather Site</title>
   <meta name="description" content="Weather for Franklin, ID">
   <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="franklin.css/style.css">
+<link rel="stylesheet" type="text/css" href="franklin.css/normalize.css">
 
-  <style>
+    <style>
     @import url('https://fonts.googleapis.com/css?family=Sansita');
     </style>
 
  </head>
-
+ 
  <body>   
 
         <header>
 
-            <img src="images/logo.jpeg" alt="Weathersite Logo">
-            <h1>The Weather Site</h1>
+            <img src="images/logo.jpeg" alt="Weathersite Logo" id="logoPhoto">
+            <h1 id="site-brand">The Weather Site</h1>
 
         </header>
         
@@ -39,29 +41,37 @@
                 <p>
                     <strong>Zip:</strong> 83237 | <strong>Elevation:</strong> 1514.246 ft. | <strong>Location:</strong> 42.07&deg; N, 111.79&deg; W
                 </p>
-        
-                <section>
+                
+                <div id="infoBox">
+
+                <section id="temp" class="tile">
                     <h2>Temperature</h2>
                     <p>40&deg;F</p>
-                    <p id="tempHigh">64&deg;F</p>
-                    <p id="tempLow">41&deg;F</p>
+                    <p id="tempHigh">64&deg;F </p>
+                    <p id="tempLow"> 41&deg;F</p>
                     <p id="feelsLike">Feels Like 40&deg;F</p>
                 </section>
 
-                <section>
+                <section id="wind" class="tile">
                     <h2>Wind</h2>
                     <p id="windSpeed">5 mph</p>
-                    <img src="images/wind-pointer.png" title="Wind direction" alt="Compass showing direction of wind">
+                    
+                    <div id="windContainer">
+                    <img src="images/wind-pointer.png" title="Wind direction" alt="Compass showing direction of wind" id="compassDirection">
+                    </div>
+                    
                     <p id="windDirection"><strong>Direction: </strong>SW</p>
                     <p id="windGusts"><strong>Gusts: </strong>10-12 mph</p>
                 </section>
 
-                <section>
+                <section id="condition" class="tile">
                     <h2><strong>Rainy</strong></h2>
-                    <img src="images/rain.jpg" title="Weather is rainy" alt="Raindrops">
+                    <img src="images/rain.jpg" title="Weather is rainy" alt="Raindrops" id="rainPhoto">
                 </section>
 
-                <section>
+            </div>
+
+                <section id="hourly" class="tile">
                     <h2>Hourly Forecast</h2>
                     <ol>
                         <li>10am: 41&deg;F</li>
@@ -80,6 +90,7 @@
                     </ol>
                 </section>
             
+              
         
         </main>
         
