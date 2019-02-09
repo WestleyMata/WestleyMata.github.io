@@ -46,9 +46,16 @@ nav {
 
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     display: inline-block;
+}
+
+nav li a {
+    display: block;
+    width: 70px;
+    padding: 16px;
+    float: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,6 +102,8 @@ section {
 li, ol, ul {
     list-style: none;
     display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 #rainPhoto {
