@@ -31,6 +31,7 @@ nav a:link {
 #logoPhoto {
     height: 40px;
     width: auto;
+    padding-right: 1em;
 }
 
 header h1 {
@@ -65,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-size: 18px;
     font-family: Helvetica, Arial, sans-serif;
-    width: 500px;
+    width: 100%;
     height: auto;
 }
 
@@ -130,3 +131,16 @@ footer {
 
 
 /* Mobile Styles */
+
+
+
+/* Larger Styles */
+
+@media only screen and (min-width: 700px) {
+
+nav {
+    position: relative;
+
+}
+
+}
