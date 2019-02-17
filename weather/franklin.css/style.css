@@ -132,6 +132,9 @@ footer {
 
 /* Mobile Styles */
 
+@media only screen and (max-width: 699px) {
+
+}
 
 
 /* Larger Styles */
@@ -143,4 +146,10 @@ nav {
 
 }
 
+#infoBox {
+
+    display:flex;
+    justify-content: center;
+
 }
+
