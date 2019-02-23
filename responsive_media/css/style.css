@@ -36,12 +36,20 @@ h6 {
 	width: 100%;
 }
 
+#ruinsSmall {
+	width: 100%;
+}
+
 @media (max-width: 41.67em) {
 #largeLogo {
 	display: none;
 }
 
 #largeLD {
+	display: none;
+}
+
+#ruinsLarge {
 	display: none;
 }
 
@@ -198,7 +206,9 @@ h1 {
 		flex: 0 1 20%;
 	}
 
-
+	#ruinsSmall {
+		display: none;
+	}
 
 	#smallLD {
 		display: none;
@@ -240,6 +250,14 @@ h1 {
 @media (min-width: 66.7em) {
 	body {
 		font-size: 1.5vw;
+	}
+
+	#smallLD {
+		display: none;
+	}
+
+	#ruinsSmall {
+		display: none;
 	}
 
     #smallLogo {
