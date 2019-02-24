@@ -18,6 +18,11 @@ header {
     background-color: #0e89d5;
 }
 
+#logoPhotoSmall {
+    display: 100%;
+}
+
+
 #site-brand {
     font-size: 2em;
     font-weight: 600;
@@ -29,8 +34,7 @@ nav a:link {
 }
 
 #logoPhoto {
-    height: 40px;
-    width: auto;
+    height: 100%;
     padding-right: 1em;
 }
 
@@ -134,6 +138,8 @@ footer {
 
 @media only screen and (max-width: 699px) {
 
+    #logoPhotoSmall
+
 }
 
 
@@ -152,18 +158,3 @@ nav {
     justify-content: center;
 
 }
-
-
-
-
-
-
-
-
-/* position: absolute;
-top: 40%;
-left: 45%
-margin: 0px;
-
-
-Make image a background image */
