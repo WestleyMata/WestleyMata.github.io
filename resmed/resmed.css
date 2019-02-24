@@ -1,12 +1,35 @@
+
+/* Larg */
+
 @media (min-width: 700px) {
 
+.rain-200, .snow-200, .fog-200, .clouds-200, .clear-200, .wind-pointer-100, .logo-75 {
+display: none;
 
+    }
+    
 
 }
 
+
+/* Smol */
 
 @media (max-width: 699px) {
 
-
-    
+.rain-600,
+.snow-600,
+.fog-600, 
+.clouds-600, 
+.clear-600, 
+.wind-pointer-167,
+.logo-134 {
+    display: none;
 }
+
+
+}
+
+
+
+
+
